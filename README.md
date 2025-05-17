@@ -63,4 +63,4 @@ To perform the hyper parameter sweep on the Attention based RNN model:
 - To Train the Attention based RNN model with the best hyperparameters obtained from sweeps, execute cells of `Eng2Kan-Attention.ipynb`. It trains the model, performs inference on test set and saves the predictions of the test set as `predictions_attention.csv`.
 - To visualize the attention weights in terms of attention heatmaps execute the cells of `Eng2Kan_Attention_Weights_Plots.ipynb`.
 
-
+### For the plots to render the `Kannada` words : set the path to the file `NotoSansKannada-VariableFont_wdth,wght.ttf` accordingly
