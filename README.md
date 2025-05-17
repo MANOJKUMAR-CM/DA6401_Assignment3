@@ -48,5 +48,6 @@ To perform the hyper parameter sweep on the RNN model:
      }
   }
   ```
+- To Train the RNN model with the best hyperparameters obtained from sweeps, execute cells of `Eng2Kan.ipynb`. It trains the model, performs inference on test set and saves the predictions of the test set as `prediction_vanilla.csv`.
 
   
