@@ -67,4 +67,16 @@ To perform the hyper parameter sweep on the Attention based RNN model:
 
 ### Part C
 Question 6: To Observe the attention of model on the input tokens while its decoding the ith output, execute `Eng2Kan_Attention_Visualization.ipynb`.
+Download the file and run it locally with the necessary packages installed.
 
+### Note: If the installed Tensorflow version is 2.10.0
+```python
+def pad(List, max_length):
+    return sequence.data_utils.pad_sequences(List, maxlen=max_length, padding="post")
+```
+### Else if the version is > 2.10.0
+```python
+def pad(List, max_length):
+    return sequence.pad_sequences(List, maxlen=max_length, padding="post")
+```
+If the cell throw errors, check the tensorflow version and modify the cell accordingly.
