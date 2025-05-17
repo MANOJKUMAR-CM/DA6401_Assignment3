@@ -16,7 +16,7 @@ This repository contains files for Assignment 3 of the course DA6401 - Introduct
 
 ### Part A
 To perform the hyper parameter sweep on the RNN model:
-- Run `Eng2Kan_wandb_sweep.ipynb` , make sure to update `wandb.sweep()` with your own wandb credentials before running.
+- Execute cells of `Eng2Kan_wandb_sweep.ipynb` , make sure to update `wandb.sweep()` with your own wandb credentials before running.
 - **Hyperparameter Sweeps Configuration:**
   ```python
   sweep_config = {
@@ -48,6 +48,19 @@ To perform the hyper parameter sweep on the RNN model:
      }
   }
   ```
+#### Update WandB Credentials  
+Before running the sweep, update the following command with your own WandB credentials:  
+
+```python
+wandb.sweep(sweep_config, entity="<your_name>", project="<your_project_name>")
+```
+
 - To Train the RNN model with the best hyperparameters obtained from sweeps, execute cells of `Eng2Kan.ipynb`. It trains the model, performs inference on test set and saves the predictions of the test set as `prediction_vanilla.csv`.
 
-  
+### Part B
+To perform the hyper parameter sweep on the Attention based RNN model:
+- Execute cells of `Eng2Kan_Attention_wandb_sweep.ipynb`, make sure to update `wandb.sweep()` with your own wandb credentials before running.
+- To Train the Attention based RNN model with the best hyperparameters obtained from sweeps, execute cells of `Eng2Kan-Attention.ipynb`. It trains the model, performs inference on test set and saves the predictions of the test set as `predictions_attention.csv`.
+- To visualize the attention weights in terms of attention heatmaps execute the cells of `Eng2Kan_Attention_Weights_Plots.ipynb`.
+
+
