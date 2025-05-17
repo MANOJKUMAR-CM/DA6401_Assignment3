@@ -64,3 +64,7 @@ To perform the hyper parameter sweep on the Attention based RNN model:
 - To visualize the attention weights in terms of attention heatmaps execute the cells of `Eng2Kan_Attention_Weights_Plots.ipynb`.
 
 ### For the plots to render the `Kannada` words : set the path to the file `NotoSansKannada-VariableFont_wdth,wght.ttf` accordingly
+
+### Part C
+Question 6: To Observe the attention of model on the input tokens while its decoding the ith output, execute `Eng2Kan_Attention_Visualization.ipynb`.
+
