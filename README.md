@@ -10,7 +10,7 @@ This repository contains files for Assignment 3 of the course DA6401 - Introduct
 
 ## Links:
 
-## [Wandb Report]([https://google.com](https://wandb.ai/manoj_da24s018-iit-madras/Transliterator_Attention_HyperParameterSweep/reports/DA6401-Assignment-3--VmlldzoxMjgwMDk5NA?accessToken=i7uu6lbu8y8vijq4w0ye9wzhfi8kwzlpo1kdbrd3uj17unbt04lt9a9fvt1hkm6n))
+## [Wandb Report]([https://google.com](https://wandb.ai/manoj_da24s018-iit-madras/Transliterator_Attention_HyperParameterSweep/reports/DA6401-Assignment-3--VmlldzoxMjgwMDk5NA?accessToken=i7uu6lbu8y8vijq4w0ye9wzhfi8kwzlpo1kdbrd3uj17unbt04lt9a9fvt1hkm6n)
 
 ## [Github: Assignment3 - DA6401](https://github.com/MANOJKUMAR-CM/DA6401_Assignment3)
 
